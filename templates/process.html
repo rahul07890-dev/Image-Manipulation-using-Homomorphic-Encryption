@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Adjust Brightness and Contrast</h2>
+        <form method="POST">
+            <label for="brightness">Brightness Adjustment (e.g. 0.2):</label>
+            <input type="text" name="brightness" required>
+            <br>
+            <label for="contrast">Contrast Adjustment (e.g. 1.5):</label>
+            <input type="text" name="contrast" required>
+            <br>
+            <button type="submit" class="button">Apply Adjustments</button>
+        </form>
+    </div>
+</body>
+</html>
