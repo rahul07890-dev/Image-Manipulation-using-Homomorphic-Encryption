@@ -27,3 +27,16 @@ This Flask-based web application demonstrates how to perform brightness and cont
    ```bash
    git clone https://github.com/your-username/image-manipulation-encryption.git
    cd image-manipulation-encryption
+
+2.## Install dependencies:
+   pip install -r requirements.txt
+
+3.## Configure AWS S3 credentials:
+
+Set up AWS CLI and provide credentials for accessing the S3 bucket.
+Ensure the bucket name and object keys in the code match your S3 setup.
+
+4.## Run the application:
+   python app.py
+
+
