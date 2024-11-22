@@ -25,8 +25,8 @@ This Flask-based web application demonstrates how to perform brightness and cont
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/rahul07890-dev/image-manipulation-encryption.git
-   cd image-manipulation-encryption
+  git clone https://github.com/rahul07890-dev/Image-Manipulation-using-Homomorphic-Encryption.git
+  cd Image-Manipulation-using-Homomorphic-Encryption
 
 2.## Install dependencies:
    pip install -r requirements.txt
